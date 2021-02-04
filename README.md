@@ -12,11 +12,11 @@ Delineation of brain tumors is an important task for the diagnosis and treatment
 ## Implementation:  
   ### 1) Neural Network training
   **U-Net architecture was used for segmentation:**  
-    ![image info](./figures/U_Net.GIF)
+    ![image info](./figures/U_Net.gif)
   **Training parameters:**
   ![image info](./figures/NN_param.PNG)
   
-  **Results visualization:**
+  **Visualization of predicted tumor mask VS ground truth:**
   
   ![image info](./figures/NN_results.PNG)
   
@@ -27,7 +27,7 @@ Delineation of brain tumors is an important task for the diagnosis and treatment
   ### 3) Post-processing
   **Post-processing pipeline: Postporcessing the output of the network in order to convert it to a suitable format for visualization and modification on
   the radiology workstation**
-   ![image info](./figures/Post_processing.PNG)
+   ![image info](./figures/post_processing.PNG)
    
    **Visualization of final RTSTRUCT contours overlaid over the GT. The radiologist will be able to visualize and modify the contours if needed
    . The modified version will be sent back to the network to fine-tune it and increase its robustness:**
