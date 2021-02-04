@@ -39,7 +39,10 @@ Delineation of brain tumors is an important task for the diagnosis and treatment
    ### 4) Final proposed pipeline that closes the loop between pre-processing and post-processing:  
    
    ![image info](./figures/Pipline.PNG){width=250px}
-   
+   <img src="/figures/Pipline.PNG" width="40%">
+   <img src="./figures/Pipline.PNG" width="40%">
+   <img src="/Pipline.PNG" width="40%">
+    <img src="./Pipline.PNG" width="40%">
    
    
   
