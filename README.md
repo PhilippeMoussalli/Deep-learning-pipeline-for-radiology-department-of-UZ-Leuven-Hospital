@@ -8,7 +8,7 @@ Delineation of brain tumors is an important task for the diagnosis and treatment
 ## Project requirements:
   
 
-  <img src="/figures/requirements.PNG" width="30%">
+  <img src="/figures/requirements.PNG" width="70%">
 
 ## Implementation:  
   ### 1) Neural Network training
@@ -19,21 +19,21 @@ Delineation of brain tumors is an important task for the diagnosis and treatment
   **Training parameters:**  
     
 
-  <img src="/figures/NN_param.PNG" width="30%">
+  <img src="/figures/NN_param.PNG" width="70%">
   **Visualization of predicted tumor mask VS ground truth:**  
     
-   <img src="/figures/NN_results.PNG" width="30%">
+   <img src="/figures/NN_results.PNG" width="70%">
 
   
   ### 2) Pre-processing  
    **Pre-processing pipeline: Preprocessing the data before feeding it to the network**  
 
-   <img src="/figures/Pre_processing.PNG" width="20%">
+   <img src="/figures/Pre_processing.PNG" width="40%">
   ### 3) Post-processing  
   **Post-processing pipeline: Postporcessing the output of the network in order to convert it to a suitable format for visualization and modification on
   the radiology workstation**  
 
-   <img src="/figures/post_processing.PNG" width="20%">
+   <img src="/figures/post_processing.PNG" width="40%">
    **Visualization of final RTSTRUCT contours overlaid over the GT. The radiologist will be able to visualize and modify the contours if needed
    . The modified version will be sent back to the network to fine-tune it and increase its robustness:**  
    
