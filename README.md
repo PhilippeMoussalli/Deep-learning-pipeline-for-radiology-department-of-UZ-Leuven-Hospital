@@ -7,21 +7,23 @@ Delineation of brain tumors is an important task for the diagnosis and treatment
     
 ## Project requirements:
   
-  ![image info](./figures/requirements.PNG)
+
+  <img src="/figures/requirements.PNG" width="30%">
 
 ## Implementation:  
   ### 1) Neural Network training
   **U-Net architecture was used for segmentation:**      
 
-   <img src="/figures/U_Net.PNG" width="60%">
+   
+  ![image info](./figures/U_Net.gif)
   **Training parameters:**  
     
-  ![image info](./figures/NN_param.PNG)
-  
+
+  <img src="/figures/NN_param.PNG" width="30%">
   **Visualization of predicted tumor mask VS ground truth:**  
     
-  
-  ![image info](./figures/NN_results.PNG)
+   <img src="/figures/NN_results.PNG" width="30%">
+
   
   ### 2) Pre-processing  
    **Pre-processing pipeline: Preprocessing the data before feeding it to the network**  
