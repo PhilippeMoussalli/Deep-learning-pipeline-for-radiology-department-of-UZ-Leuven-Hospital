@@ -26,12 +26,12 @@ Delineation of brain tumors is an important task for the diagnosis and treatment
   ### 2) Pre-processing  
    **Pre-processing pipeline: Preprocessing the data before feeding it to the network**  
 
-     <img src="/figures/Pre_processing.PNG" width="60%">
+   <img src="/figures/Pre_processing.PNG" width="20%">
   ### 3) Post-processing  
   **Post-processing pipeline: Postporcessing the output of the network in order to convert it to a suitable format for visualization and modification on
   the radiology workstation**  
 
-   <img src="/figures/post_processing.PNG" width="60%">
+   <img src="/figures/post_processing.PNG" width="20%">
    **Visualization of final RTSTRUCT contours overlaid over the GT. The radiologist will be able to visualize and modify the contours if needed
    . The modified version will be sent back to the network to fine-tune it and increase its robustness:**  
    
