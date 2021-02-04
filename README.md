@@ -20,16 +20,20 @@ Delineation of brain tumors is an important task for the diagnosis and treatment
     
 
   <img src="/figures/NN_param.PNG" width="70%">
+  
   **Visualization of predicted tumor mask VS ground truth:**  
+
     
    <img src="/figures/NN_results.PNG" width="70%">
 
   
   ### 2) Pre-processing:  
+  
    **Pre-processing pipeline: Preprocessing the data before feeding it to the network**  
 
    <img src="/figures/Pre_processing.PNG" width="40%">
   ### 3) Post-processing:    
+  
   **Post-processing pipeline: Postporcessing the output of the network in order to convert it to a suitable format for visualization and modification on
   the radiology workstation**  
 
