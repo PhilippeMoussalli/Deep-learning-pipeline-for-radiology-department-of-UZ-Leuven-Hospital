@@ -24,7 +24,7 @@ Delineation of brain tumors is an important task for the diagnosis and treatment
   **Visualization of predicted tumor mask VS ground truth:**  
 
     
-   <img src="/figures/NN_results.PNG" width="60%">
+   <img src="/figures/NN_results.PNG" width="80%">
 
   
   ### 2) Pre-processing:  
