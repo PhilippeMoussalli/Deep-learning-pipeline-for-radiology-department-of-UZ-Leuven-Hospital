@@ -41,9 +41,8 @@ Delineation of brain tumors is an important task for the diagnosis and treatment
      
    **Visualization of final RTSTRUCT contours overlaid over the GT. The radiologist will be able to visualize and modify the contours if needed
    .The modified version will be sent back to the network to fine-tune it and increase its robustness:**  
-   
-   ![image info](./figures/RT_STRUCT_contour.PNG)
-   
+ 
+   <img src="/figures/RT_STRUCT_contour.PNG" width="80%">
    ### 4) Final proposed pipeline that closes the loop between pre-processing and post-processing:  
    
 
