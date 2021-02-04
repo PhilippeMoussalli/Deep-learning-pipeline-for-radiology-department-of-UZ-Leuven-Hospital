@@ -11,8 +11,8 @@ Delineation of brain tumors is an important task for the diagnosis and treatment
 
 ## Implementation:  
   ### 1) Neural Network training
-  **U-Net architecture was used for segmentation:**  
-    ![image info](./figures/U_Net.gif)
+  **U-Net architecture was used for segmentation:**    
+    ![image info](./figures/U_Net.gif)  
   **Training parameters:**  
     
   ![image info](./figures/NN_param.PNG)
